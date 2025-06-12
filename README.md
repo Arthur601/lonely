@@ -1,9 +1,10 @@
-solidao = 10
-acompanhado = 5
+emocao = int(input("qual o grau de sua emoção?: "))
+sentimento = int(input("qual o grau de seu sentimento: "))
 
-while solidao > acompanhado:
+while emocao < sentimento:
    print(" i'm mr lonely ")
-   solidao += 1
-while solidao < acompanhado:
+   emocao += 1
+
+while emocao > sentimento:
    print(" you win !!!")
-   acompanhado += 1
+   sentimento = 1
